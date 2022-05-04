@@ -1,0 +1,32 @@
+body {
+    background-color: #9f9f9f;
+}
+
+.wrapper{
+  width 1060px;
+  border: 1px solid red;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.logo{
+    width: 145px;
+    height: 40px;
+    display:block;
+}
+
+.nav-menu {
+    list-style-type: none;
+
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 40;
+}
