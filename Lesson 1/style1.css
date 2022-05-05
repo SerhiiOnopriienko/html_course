@@ -1,0 +1,26 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+body {
+    text-align: center;
+    width: 1000px;
+}
+ul {
+    text-align:center;
+    list-style: none;
+    width: 1000px;
+}
+.first {
+    background-image: url(https://images.pathe-thuis.nl/24490_450x640.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.second {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR8UtF_qUfUIib-IV1sMa1VihO_S06W8C2iQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ol {
+    font-family: 'Koulen', cursive;
+}
