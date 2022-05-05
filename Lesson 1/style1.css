@@ -19,7 +19,7 @@ ul {
 .second {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR8UtF_qUfUIib-IV1sMa1VihO_S06W8C2iQ&usqp=CAU);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:contain;
 }
 ol {
     font-family: 'Koulen', cursive;
