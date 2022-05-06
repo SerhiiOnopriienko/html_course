@@ -15,11 +15,17 @@ ul {
     background-image: url(https://images.pathe-thuis.nl/24490_450x640.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    width: 300px;
+    height: 300px;
+    margin: auto;
 }
 .second {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR8UtF_qUfUIib-IV1sMa1VihO_S06W8C2iQ&usqp=CAU);
     background-repeat: no-repeat;
     background-size:contain;
+    width: 300px;
+    height: 300px;
+    margin: auto;
 }
 ol {
     font-family: 'Koulen', cursive;
