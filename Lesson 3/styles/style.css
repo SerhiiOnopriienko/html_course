@@ -1,32 +1,112 @@
 body {
-    background-color: #9f9f9f;
+    background-color: #f9f9f9;
 }
 
 .wrapper{
-  width 1060px;
-  border: 1px solid red;
-  height: 400px;
+  width: 1060px;
+  border: 1px solid;   
   margin: 0 auto;
   background-color: #fff;
+  padding: 50px 45px 60px;
 }
 
 .logo{
     width: 145px;
     height: 40px;
     display:block;
+    margin-bottom: 40px;
 }
 
 .nav-menu {
     list-style-type: none;
-
+    padding: 0;
+    background-color: #5c5c5c;
+    overflow: auto;
+    font-size: 0;
+    margin-bottom: 40px;
 }
 
 .nav-menu li {
     display: inline-block;
+    font-size: 15px;
 }
-
-.nav-menu a {
+.nav-menu a{
+    display: inline-block;
+    height: 40px;
+    padding: 0 40px;
+    line-height: 40px;
     color: #fff;
     text-decoration: none;
-    line-height: 40;
+}
+.marked{
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+    background-color: #484848;
+}
+.side-menu{
+    width: 240px;
+    float: left;
+    margin-right: 50px;
+}
+.side-menu a{
+    font-size: 13px;
+    color: #656363;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 20px;
+}
+.side-menu li{
+    border-top: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+    overflow: auto;
+}
+.border{
+    border-bottom: 1px solid #c8c8c8;
+}
+.side-mark{
+    background-color: #f9f9f9;
+}
+.main-content{
+    float: right;
+    width: 675px;
+}
+.img{
+    border: 1px solid #c7c7c7;
+    padding: 50px 0;
+    text-align: center;
+}
+.main{
+    overflow: auto;
+}
+p{
+    margin-top: 40px;
+    font-size: 13px;
+    color: #2c2c2c;
+    margin-left: 25px;
+}
+footer{
+    list-style-type: none;
+    padding: 0;
+    background-color: #e1e1e1;
+    overflow: auto;
+    font-size: 0;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+footer li{
+    display: inline-block;
+    font-size: 13px;
+}
+footer a{
+    display: inline-block;
+    height: 40px;
+    padding: 0 40px;
+    line-height: 40px;
+    color: #2c2c2c;
+    text-decoration: none;
+}
+.rights{
+    float: right;
+    padding: 15px 25px;
 }

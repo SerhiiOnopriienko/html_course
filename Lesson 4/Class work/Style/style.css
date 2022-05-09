@@ -1,0 +1,16 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+.main {
+    width: 400;
+    height: 600;
+    border: 1px solid black;
+    position: fixed;
+    right: 200px;
+    bottom: 200px;
+    background-color: #fff;
+}
+.main div {
+
+}
