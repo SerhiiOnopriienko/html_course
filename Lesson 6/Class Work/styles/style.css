@@ -1,0 +1,11 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+textarea{
+    resize: none;
+}
+.sex{
+    display: inline-block;
+}

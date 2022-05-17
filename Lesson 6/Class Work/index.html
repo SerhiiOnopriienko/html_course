@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Class Work</title>
+</head>
+<body>
+    <p>About Yourself Form</p>
+    <form>
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name="first name" placeholder="Type Your First Name Here">
+        <br>
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last name" placeholder="Type Your Last Name Here">
+        <br>
+        <label for="pas">Password</label>
+        <input type="password" id="pas" name="password" placeholder="Type Your Password Here">
+        <br>
+        <label for="first_film">Select Films</label>
+        <select name="first_film" id="first_film">
+            <option value="green_mile">Green Mile</option>
+            <option value="troy">Troy</option>
+            <option value="fight_club">Fight Club</option>
+            <option value="bird_box">Bird Box</option>
+        </select>
+        <br>
+        <label for="about">About you</label>
+        <textarea name="about" id="about" cols="30" rows="10" placeholder="Tape some information about you"></textarea>
+        <br>
+        <p>Choose Your Sex</p>
+        <div class="sex">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="sex" value="female">
+        </div>
+        <br>
+        <p>Choose Your Hobbies</p>
+        <div class="hobby">
+            <label for="run">Running</label>
+            <input type="checkbox" id="run" value="running">
+            <label for="sleep">Sleeping</label>
+            <input type="checkbox" id="sleep" value="sleeping">
+            <label for="work">Working</label>
+            <input type="checkbox" id="work" value="workink">
+            <label for="movie">Watch Movies</label>
+            <input type="checkbox" id="movie" value="movie">
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+   </form>
+</body>
+</html>

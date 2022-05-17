@@ -70,6 +70,7 @@ body {
 .main-content{
     float: right;
     width: 675px;
+    overflow: hidden;
 }
 .img{
     border: 1px solid #c7c7c7;
