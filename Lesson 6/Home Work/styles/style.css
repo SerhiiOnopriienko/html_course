@@ -1,0 +1,35 @@
+.header{
+    height: 80px;
+    background-color: #7FFFD4;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hard_text{
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.menu{
+    font-size: 16px;
+    margin-left: 5px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.symbol{
+    font-size: 10px;
+}
+
+.sub_menu{
+    display: none;
+}
+
+.menu:hover .sub_menu{
+    display: block;
+    position: absolute;
+}
