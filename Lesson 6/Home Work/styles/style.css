@@ -1,5 +1,5 @@
 .header{
-    height: 80px;
+    height: 100px;
     background-color: #7FFFD4;
     display: flex;
     align-items: center;
@@ -19,6 +19,12 @@
     text-decoration: none;
     color: black;
     display: flex;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
 }
 
 .symbol{
@@ -27,9 +33,14 @@
 
 .sub_menu{
     display: none;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin: 40px;
 }
 
+
 .menu:hover .sub_menu{
-    display: block;
-    position: absolute;
+    display: flex;
+
 }
