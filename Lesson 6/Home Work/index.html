@@ -11,12 +11,110 @@
 <body>
     <div class="header">
         <span class="hard_text">Contact Manager</span>
-        <ul class="menu">
-            <a href="#">More actions <span class="symbol">&#9660</span></a>
-            <li class="sub_menu"><a href="#">Main Page</a></li>
-            <li class="sub_menu"><a href="#">About</a></li>
-            <li class="sub_menu"><a href="#">Catalog</a></li>
-        </ul>
+        <select class="actions">
+            <option value="More Action">More Actions</option>
+            <option value="Main Page"><a>Main Page</a></option>
+            <option value="About"><a>About</a></option>
+            <option value="Catalog"><a>Catalog</a></option>
+        </select>
+    </div>    
+    <form>  
+        <div class="upform">
+        <div class="left">
+            <label for="first-name">First Name <span class="required">*</span>
+                <input type="text" id="first-name" required>
+            </label>
+
+            <label for="last-name">Last Name <span class="required">*</span>
+                <input type="text" id="last-name" required>
+            </label>
+            
+            <label for="adress">Adress
+                <textarea id="adress" cols="30" rows="10"></textarea>
+            </label>
+
+            <label for="city">City
+                <input type="text" id="city">
+             </label>
+
+            <label for="state">State
+                <select name="state" id="state">
+                    <option disabled selected>-Select-</option>
+                    <option value="north">North</option>
+                    <option value="west">West</option>
+                    <option value="east">East</option>
+                </select>
+            </label>
+
+            <label for="zip">Zip
+                <input type="number" id="zip">
+            </label>
+
+            <label for="home-phone">Home Phone
+                <input type="number" id="home-phone">
+            </label>
+
+            <label for="work-phone">Work Phone <span class="required">*</span>
+                <input type="number" id="work-phone" required>
+            </label>
+
+            <label for="fax">Fax Number
+                <input type="number" id="fax">
+            </label>
+
+            <label class="web" for="website">Website
+                <label class="sub" for="url">URL
+                    <input type="text" id="url">
+                </label>
+                <label class="sub" for="link-name">Link name
+                    <input type="text" id="link-name">
+                </label>
+            </label>
+
+            <label for="email">Email Address <span class="required">*</span>
+                <input type="text" id="email" required>
+            </label>            
+        </div>
+
+        <div class="right">
+            <div class="time">
+                <p class="check">When is the best time to contact you?</p>
+                <label class="move" for="morning">Morning
+                    <input type="radio" id="morning" name="time" value="morning">
+                </label>
+                <label class="move" for="afternoon">Afternoon
+                    <input type="radio" id="afternoon" name="time" value="afternoon">
+                </label>
+                <label class="move" for="evening">Evening
+                    <input type="radio" id="evening" name="time" value="evening">
+                </label>
+            </div>
+            
+            <div class="how">  
+                <p class="check">What is the best way to contact you?</p>
+                <label class="move" for="phone">Phone
+                    <input type="radio" id="phone" name="how" value="phone">
+                </label>
+                <label class="move" for="email">Email
+                    <input type="radio" id="email" name="how" value="email">
+                </label>
+                <label class="move" for="fax">Fax
+                    <input type="radio" id="hfax" name="how" value="fax">
+                </label>
+            </div>
+            <label for="message">Message
+                <textarea id="message" cols="30" rows="10"></textarea>
+            </label>
+        </div>
+    </div>
+
+        <div class="buttons">
+            <input class="finish" type="submit" value="Submit">
+            <input class="finish" type="reset" value="Reset">
+        </div>
+    </form>
+
+    <div class="collor">
 
     </div>
 </body>
