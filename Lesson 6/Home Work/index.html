@@ -12,20 +12,20 @@
     <div class="header">
         <span class="hard_text">Contact Manager</span>
         <select class="actions">
-            <option value="More Action">More Actions</option>
-            <option value="Main Page"><a>Main Page</a></option>
-            <option value="About"><a>About</a></option>
+            <option value="More Action"><a href="#">More Actions</a></option>
+            <option value="Main Page"><a href="#">Main Page</a></option>
+            <option value="About"><a href="#">About</a></option>
             <option value="Catalog"><a>Catalog</a></option>
         </select>
     </div>    
     <form>  
         <div class="upform">
         <div class="left">
-            <label for="first-name">First Name <span class="required">*</span>
+            <label for="first-name"><span class="required">First Name</span>
                 <input type="text" id="first-name" required>
             </label>
 
-            <label for="last-name">Last Name <span class="required">*</span>
+            <label for="last-name"><span class="required">Last Name</span>
                 <input type="text" id="last-name" required>
             </label>
             
@@ -54,7 +54,7 @@
                 <input type="number" id="home-phone">
             </label>
 
-            <label for="work-phone">Work Phone <span class="required">*</span>
+            <label for="work-phone"><span class="required">Work Phone</span>
                 <input type="number" id="work-phone" required>
             </label>
 
@@ -71,7 +71,7 @@
                 </label>
             </label>
 
-            <label for="email">Email Address <span class="required">*</span>
+            <label for="email"><span class="required">Email Address</span>
                 <input type="text" id="email" required>
             </label>            
         </div>
@@ -79,27 +79,33 @@
         <div class="right">
             <div class="time">
                 <p class="check">When is the best time to contact you?</p>
-                <label class="move" for="morning">Morning
+                <label class="move" for="morning">
                     <input type="radio" id="morning" name="time" value="morning">
+                    <span>Morning</span>
                 </label>
-                <label class="move" for="afternoon">Afternoon
+                <label class="move" for="afternoon">
                     <input type="radio" id="afternoon" name="time" value="afternoon">
+                    <span>Afternoon</span>
                 </label>
-                <label class="move" for="evening">Evening
+                <label class="move" for="evening">
                     <input type="radio" id="evening" name="time" value="evening">
+                    <span>Evening</span>
                 </label>
             </div>
             
             <div class="how">  
                 <p class="check">What is the best way to contact you?</p>
-                <label class="move" for="phone">Phone
+                <label class="move" for="phone">
                     <input type="radio" id="phone" name="how" value="phone">
+                    <span>Phone</span>
                 </label>
-                <label class="move" for="email">Email
+                <label class="move" for="email">
                     <input type="radio" id="email" name="how" value="email">
+                    <span>Email</span>
                 </label>
-                <label class="move" for="fax">Fax
+                <label class="move" for="fax">
                     <input type="radio" id="hfax" name="how" value="fax">
+                    <span>Fax</span>
                 </label>
             </div>
             <label for="message">Message
@@ -107,15 +113,10 @@
             </label>
         </div>
     </div>
-
         <div class="buttons">
             <input class="finish" type="submit" value="Submit">
             <input class="finish" type="reset" value="Reset">
         </div>
     </form>
-
-    <div class="collor">
-
-    </div>
 </body>
 </html>

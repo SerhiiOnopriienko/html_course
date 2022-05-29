@@ -1,0 +1,23 @@
+.main{
+    background-image: url(../images/mercedes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.inner-table_blue{
+    background-color: blue;
+}
+
+.has_image{
+    padding: 20px;
+}
+
+.bg_green{
+    background-color: green;
+}

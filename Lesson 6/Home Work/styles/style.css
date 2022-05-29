@@ -18,7 +18,10 @@
 }
 
 form{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
 }
 textarea{
     resize: none;
@@ -26,7 +29,6 @@ textarea{
 
 .upform{
     display: flex;
-    align-items: flex-start;
 }
 
 .left{
@@ -50,9 +52,10 @@ label:not(.move):not(.sub){
 p{
     font-weight: bold;  
 }
-.required{
-    margin-left: -85px;
+.required::after{
+    content: '*';
     color: red;
+    margin-left: 10px;
 }
 
 .web{
@@ -132,19 +135,19 @@ p{
 }
 
 .buttons{
-    position: absolute;
-    margin-top: 950px;
-    margin-left: 500px;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .finish{
     width: 100px;
     height: 25px;
-    background-color: #adff2f;;
-}
+    background-color: #adff2f;
 
-.collor{
-    height: 70px;
-    background-color: #C0C0C0;
 }
