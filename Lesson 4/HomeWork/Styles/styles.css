@@ -25,7 +25,7 @@ body{
     color: black;
 }
 
-.header-menu a:after{
+/* .header-menu a:after{
     content: '';
     width: 100%;
     height: 3px;
@@ -38,6 +38,11 @@ body{
 
 .header-menu a:hover::after{
     opacity: 1;
+} */
+
+.header-menu a:hover{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0066CC;
 }
 
 .header li{
