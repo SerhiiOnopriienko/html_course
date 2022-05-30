@@ -2,12 +2,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .header{
     display: flex;
     height: 65px;
-    list-style-type: none;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
     white-space: nowrap;
 }
@@ -19,8 +22,6 @@ body{
 }
 
 .header a{
-    position: relative;
-    display: block;
     text-decoration: none;
     color: black;
 }
@@ -44,10 +45,6 @@ body{
     display: inline-block;
     font-size: 16px;
     margin-right: 45px;
-}
-
-.logo{
-    margin-right: 100px;
 }
 
 .main_logo{
@@ -105,7 +102,7 @@ body{
     background-color: #FAFAFA;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .left{
