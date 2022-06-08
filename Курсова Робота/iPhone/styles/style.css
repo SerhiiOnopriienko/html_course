@@ -11,14 +11,17 @@ body{
 .header{
     background-color: #2B2B2B;
     height: 120px;
-    min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 140px;
-    margin-left: -140px;
-    padding-right: 140px;
-    margin-right: -140px;
+}
+
+.header li:first-child{
+    margin-left: 5%;
+}
+
+.header li:last-child{
+    margin-right: 10%;
 }
 
 .header a{
@@ -83,17 +86,15 @@ h1{
 .footer_menu{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .footer_menu ul span{
-    display: block;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.02em;
     color: #CACACA;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .footer_menu ul a{
@@ -102,8 +103,4 @@ h1{
     line-height: 50px;
     letter-spacing: -0.02em;
     color: #4B6571;
-}
-
-.footer_menu ul a:hover{
-    color: #86B6CC;
 }

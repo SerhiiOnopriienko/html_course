@@ -1,0 +1,236 @@
+body{
+    font-family: 'Inter';
+}
+
+.header{
+    background: #fff;
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+    z-index: 1;
+}
+
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+.iner_header{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+}
+
+.logo_mobile{
+    display: none;
+}
+
+.logo span{
+    color: #2D3436;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.header_menu{
+    display: flex;
+    align-items: center;
+}
+
+.header_menu li:not(:first-child){
+    margin-left: 20px;
+}
+
+.header_menu li::after{
+    content: ".";
+    color: #FDCB6E;
+    font-weight: 700;
+    position: relative;
+    bottom: 5px;
+    margin-left: 20px;
+}
+
+.header_menu li:last-child::after{
+    content: none;
+}
+
+.header_menu a{
+    color: #6C5CE7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.header_menu a.active{
+    color: #2D3436;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.btn{
+    display: block;
+    cursor: pointer;
+    background-color: #6C5CE7;
+    border-radius: 999px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sign_in{
+    width: 170px;
+    height: 64px;
+    text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.main{
+    height: 700px;
+    background-image: url(../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -75px;
+    background-position-x: 140px;
+    background-size: 80%;
+}
+
+.name_desctop{
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 104px;
+    text-shadow: 0px 4px 0px #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name_desctop span {
+    color: #D63031;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+}
+
+.just_text{
+    width: 18%;
+    margin-bottom: 20px;
+}
+
+.two_btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 70px 15px 0;
+}
+
+.learn_more{
+    width: 270px;
+    height: 82px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.green_text{
+    width: 33%;
+    background-color: #55EFC4;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    border: 0px solid;
+    border-radius: 999px;
+}
+
+.green_text p{
+    margin: 30px;
+}
+
+
+
+.four_buttons{
+    height: 666px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h3::after{
+    content: "\01F69A \1F4A8";
+}
+
+h3 + p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 65%;
+}
+
+.main_mobile{
+    height: 700px;
+    display: none;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -100px;
+    background-size: 100%;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+    margin-left: 20px;
+}
+
+.icons li:nth-child(2){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2D3436;
+}
+
+.icon_learn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6C5CE7;
+    border: 1px solid #ADADAD;
+    border-radius: 16px;
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.icons ul{
+    margin-top: 100px;
+}
