@@ -71,7 +71,9 @@
         font-size: 20px;
         line-height: 28px;
     }
-    
+    .icons li:nth-child(2){
+        height: 75px;
+    }
 }
 
 @media (max-width: 760px){
@@ -116,6 +118,9 @@
     h3 + p{
         font-size: 20px;
         line-height: 28px;
+    }
+    .icons li:nth-child(3){
+        height: 230px;
     }
 }
 
@@ -232,11 +237,21 @@
     .icons ul{
         width: 50%;
     }
+    .icons li:nth-child(2){
+        height: 40px;
+    }
+    .icons li:nth-child(3){
+        height: 100px;
+    }
 }
+
 
 @media (max-width: 450px){
     .learn_mobile{
         margin-top: 120px;
+    }
+    .icons li:nth-child(3){
+        height: 120px;
     }
 }
 
@@ -250,6 +265,15 @@
     .main_mobile h2{
         padding-top: 0;
         height: 90px;
+    }
+    .icons li:nth-child(3){
+        height: 120px;
+    }
+    .icons li:nth-child(2){
+        height: 50px;
+    }
+    .icons li:nth-child(3){
+        height: 140px;
     }
 }
 
