@@ -12,6 +12,16 @@
         font-size: 52px;
         line-height: 65px;
     }
+
+    .pricing_lists li:nth-child(2){
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+    .list_text{
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
 
 @media (max-width: 1100px){
@@ -25,6 +35,12 @@
     h2{
         font-size: 45px;
         line-height: 50px;
+    }
+
+    .left_lists a{
+        font-size: 12px;
+        line-height: 0px;
+        letter-spacing: 0px;
     }
 }
 
@@ -74,6 +90,44 @@
     .icons li:nth-child(2){
         height: 75px;
     }
+
+    .pricing_lists li:nth-child(2){
+    font-size: 40px;
+    line-height: 44px;
+    }
+
+    .pricing_lists li:first-child{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .list_text{
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 15%;
+    }
+
+    .pricing_btn{
+        height: 10%;
+    }
+
+    .active_btn{
+        font-size: 20px;
+        line-height: 40px;
+        margin: 20px;
+    }
+
+    .for_information{
+        display: none;
+    }
+    .right_form{
+        margin: 0 auto;
+    }
+
+    .submit_btn{
+        width: 150px;
+        margin-left: 15px;
+    }
 }
 
 @media (max-width: 760px){
@@ -121,6 +175,36 @@
     }
     .icons li:nth-child(3){
         height: 230px;
+    }
+
+    .pricing_lists{
+        display: block;
+    }
+
+    .column{
+        margin: 0 auto;
+        width: 55%;
+    }
+
+    .pricing_lists li:first-child{
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .list_text{
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .socials{
+        display: block;
+        margin-left: 10%;
+    }
+    .e-mail{
+        margin-top: 20px;
+    }
+    .right_form{
+        margin-left: 10%;
     }
 }
 
@@ -242,6 +326,285 @@
     }
     .icons li:nth-child(3){
         height: 100px;
+    }
+
+    .header_pricing{
+        display: none;
+    }
+    .under_header{
+        display: none;
+    }
+    
+    .mobil_header_pricing{
+        display: block;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: -0.5px;
+        color: #2D3436;
+        margin-left: 15px;
+    }
+    
+    .mobile_under_header{
+        display: block;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.25px;
+        color: #ADADAD;
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+
+    .mobile_under_header span::before{
+        content: ".";
+        color: #ADADAD;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        position: relative;
+        bottom: 6px;
+        right: 2px;
+    }
+
+    .mobile_under_header span{
+        background-image: url(../images/yellow\ back.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 20px;
+        background-position-x: 0;
+        color: #6C5CE7;
+    }
+
+    .pricing_lists{
+        display: none;
+    }
+
+    .mobile_pricing_lists{
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .mobile_name{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        color: #2D3436;
+        margin-left: 7%;
+        margin-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .ind::after{
+        content: 'fine!';
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #2D3436;
+        border: 1px solid #858585;
+        border-radius: 99px;
+        position: relative;
+        left: 30%;
+        padding: 5px;
+    }
+
+    .pro::after{
+        content: 'good!';
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #2D3436;
+        border: 1px solid #858585;
+        border-radius: 99px;
+        position: relative;
+        left: 20%;
+        padding: 5px;
+    }
+
+    .ent::after{
+        content: 'wow';
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #55EFC4;
+        border: 1px solid #55EFC4;
+        border-radius: 99px;
+        position: relative;
+        left: 30%;
+        padding: 5px;
+    }
+
+    .mobile_price{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.25px;
+        color: #6C5CE7;
+        text-shadow: 0px 4px 0px #FFFFFF;
+        margin-left: 7%;
+        margin-bottom: 5%;
+    }
+
+    .styled_list{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 60px;
+        letter-spacing: 0.2px;
+        color: #2D3436;
+        list-style-image: url(../images/mobil_list_style.png);
+        margin-left: 15%;
+    }
+
+     .active_styled_list{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 60px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        list-style-image: url(../images/active_mobile_style.png);
+        margin-left: 15%;
+     }
+
+     .just_mobile_list{
+        border: 0px solid;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        margin-bottom: 25px;
+        filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)) drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
+        padding-bottom: 20px;
+     }
+
+     .active_mobile_list{
+        border: 0px solid;
+        background-color: #6C5CE7;
+        border-radius: 16px;
+        padding-bottom: 20px;
+     }
+
+     .mobile_active_list_price{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 0px #000000;
+        margin-left: 7%;
+        margin-bottom: 5%;
+     }
+
+     .ent{
+         color: #55EFC4;
+         margin-bottom: 5%;
+     }
+
+     .mobile_list_btn{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        background-color: #6C5CE7;
+        border-radius: 16px;
+        margin: 0 auto;
+     }
+
+     .active_mobile_btn{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        color: #2D3436;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        margin: 0 auto;
+     }
+
+     .footer{
+         display: none;
+     }
+
+     .mobile_footer{
+         display: block;
+         margin-top: 80px;
+         background-image: url(../images/mobile_footer_back.png);
+         background-repeat: no-repeat;
+         background-position-y: 100%;
+         padding-bottom: 2%;
+     }
+     .mobile_footer ul{
+        margin-bottom: 50px;
+        text-align: center;
+     }
+     .mobile_footer li{
+         margin-bottom: 15px;
+     }
+     .black_footer_text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #2D3436;
+     }
+     .green_footer_text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        color: #00B894;
+     }
+     .violet_footer_text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        color: #6C5CE7;
+        
+     }
+    .social_mobile{
+        display: flex;
+        justify-content: space-around;
+     }
+
+    .wave_background{
+        display: none;
     }
 }
 
